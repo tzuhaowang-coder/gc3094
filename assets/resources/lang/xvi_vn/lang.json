@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "Mạt Chược Thắng 4"
+    },
+    "GAME": {
+        "payline_fg": "Thu thập 3 biểu tượng để vào trò chơi miễn phí.",
+        "payline_wd": "THAY THẾ CHO TẤT CẢ CÁC BIỂU TƯỢNG NGOẠI TRỪ TRÒ CHƠI MIỄN PHÍ",
+        "fg_tran_word_1": "Trong các vòng chơi miễn phí, hệ số nhân bắt đầu ở mức...",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "BẮT ĐẦU",
+        "fg_tran_word_4": "Mỗi chiến thắng sẽ nhân đôi hệ số nhân!",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

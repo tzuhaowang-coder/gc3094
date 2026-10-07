@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "Mahjong Win 4"
+    },
+    "GAME": {
+        "payline_fg": "Kumpulkan 3 simbol untuk memasuki permainan gratis.",
+        "payline_wd": "Pengganti semua simbol kecuali FREE GAME",
+        "fg_tran_word_1": "Selama Permainan Gratis, pengganda dimulai dari",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "AWAL",
+        "fg_tran_word_4": "Setiap Kemenangan Melipatgandakan Pengali!",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

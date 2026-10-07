@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "Mahjong Kazanç 4"
+    },
+    "GAME": {
+        "payline_fg": "ÜCRETSİZ OYUNA GİRMEK İÇİN 3 SEMBOL TOPLAYIN.",
+        "payline_wd": "FREE GAME HARİÇ TÜM SEMBOLLERİN YERİNE GEÇENLER",
+        "fg_tran_word_1": "Ücretsiz Oyunlar sırasında çarpan şu değerden başlar:",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "BAŞLANGIÇ",
+        "fg_tran_word_4": "Her kazanç çarpanı ikiye katlar!",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

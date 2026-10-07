@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "Tempo limite de conexão do jogador, tente novamente",
+        "sys_net_error2": "A conexão do jogador está anormal. Volte ao lobby e tente novamente.",
+        "sys_net_disconnect": "Rede do jogador instável, desconectada",
+        "sys_disconnected": "DESCONECTADO",
+        "sys_net_retry1": "RECONECTANDO .",
+        "sys_net_retry2": "RECONECTANDO ..",
+        "sys_net_retry3": "RECONECTANDO ..."
+    },
+    "GAME": {
+        "own_player": "Jogador (VOCÊ)",
+        "other_player": "Outro jogador%{0}",
+        "sysm_refresh": "ATUALIZAR",
+        "sysm_another_login": "Você fez login com outro dispositivo",
+        "sysm_inquiry_fail": "INQUÉRITO FALHA",
+        "sysm_login_nyet": "VOCÊ NÃO FEZ LOGIN",
+        "sysm_verify_fail": "FALHA VERIFICADA",
+        "sysm_trail_fail": "REGISTRO NÃO PODE SER CONSULTADO NA DEMO",
+        "sysm_if_bal": "EQUILÍBRIO INSUFICIENTE, POR FAVOR ATÉ",
+        "sysm_if_bal_bet_bonus": "SALDO INSUFICIENTE, CARREGUE PARA RECLAMAR SUA RECOMPENSA",
+        "sysm_error_unknown": "ERRO DESCONHECIDO",
+        "sysm_transfer_not_finish": "AGUARDEI A RESPOSTA NO OUTRO JOGO,\nTENTE MAIS TARDE",
+        "login_error": "ERRO DE LOGIN",
+        "login_unknow_error": "DESCONECTADO AO SERVIDOR",
+        "server_not_run": "O SERVIDOR ESTÁ INICIALIZANDO...",
+        "token_auth_error": "TOKEN INVÁLIDO",
+        "download_error": "ERRO DE DOWNLOAD",
+        "sysm_wallet_not_found": "Erro do servidor do operador",
+        "game_member_is_in_debt": "Aguardando o resultado da última jogada",
+        "game_member_is_in_debt2": "Aguardando o resultado da última jogada. Aguardando %{0} segundos.",
+        "sysm_ingame_yet": "Você já está na mesa",
+        "sysm_ingame_nyet": "Você não entrou na mesa",
+        "sysm_bet_fail_exceed": "Falha na aposta, tente novamente",
+        "sysm_wait_bet": "Estado sem aposta, aguarde.",
+        "sysm_game_kick_idle": "Você ficou ocioso por muito tempo, desconectado. Por favor entre novamente no jogo.",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "A página de descrição do evento expirou. Tente novamente mais tarde.",
+        "sysm_bet_limit_exceeded": "Limite de aposta\ndefinido pelo Operador\nexcedido"
+    }
+}

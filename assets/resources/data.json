@@ -1,0 +1,28 @@
+{
+  "dirs": [
+    "bundle/game/lang/{lang}",
+    "bundle/slot/lang/{lang}",
+    "lang/{lang}"
+  ],
+  "opers": [
+    "ds"
+  ],
+  "langs": [
+    "ar_ae",
+    "bn_bd",
+    "en_us",
+    "es_es",
+    "fr_fr",
+    "hi_in",
+    "id_id",
+    "ja_jp",
+    "ko_kr",
+    "pt_pt",
+    "th_th",
+    "tr_tr",
+    "ur_pk",
+    "vi_vn",
+    "zh_cn",
+    "zh_hk"
+  ]
+}

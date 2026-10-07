@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>tx_logo.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{609,290}</string>
+                <key>spriteSourceSize</key>
+                <string>{609,290}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{609,290}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>3098_vi_vn.png</string>
+            <key>size</key>
+            <string>{611,292}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:138932cc7d5fe3a330dd658b14e9515f:e352e8f83c997a2078b4853558fce1ea:bf8e3638cee155f192e04eeaf7b5cd2f$</string>
+            <key>img_md5sum</key>
+<string>c17ac5ecbdbdb3750b37a3021c6c1fe2</string>
+<key>textureFileName</key>
+            <string>3098_vi_vn.png</string>
+        </dict>
+    </dict>
+</plist>

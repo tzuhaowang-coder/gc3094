@@ -1,0 +1,1 @@
+export let GAME_ID: string = '3094';

@@ -1,0 +1,9 @@
+{
+  "disable-packages": {
+    "/Users/aaron/": {
+      "CocosCreator/builtin-extensions/3": {
+        "8": {}
+      }
+    }
+  }
+}

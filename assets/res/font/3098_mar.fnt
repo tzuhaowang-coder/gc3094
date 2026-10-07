@@ -1,0 +1,22 @@
+
+info face="微软雅黑" size=50 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=50 base=26 scaleW=602 scaleH=52 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="3098_mar.png"
+chars count=17
+char id=48   x=1    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=49   x=39    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=50   x=77    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=51   x=115    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=52   x=153    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=53   x=191    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=54   x=229    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=55   x=267    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=56   x=305    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=57   x=343    y=1      width=36     height=50     xoffset=0     yoffset=0     xadvance=36     page=0  chnl=15
+char id=66   x=495    y=1      width=34     height=50     xoffset=0     yoffset=0     xadvance=34     page=0  chnl=15
+char id=75   x=531    y=1      width=34     height=50     xoffset=0     yoffset=0     xadvance=34     page=0  chnl=15
+char id=77   x=567    y=1      width=34     height=50     xoffset=0     yoffset=0     xadvance=34     page=0  chnl=15
+char id=120   x=459    y=1      width=34     height=50     xoffset=0     yoffset=0     xadvance=34     page=0  chnl=15
+char id=44   x=381    y=1      width=16     height=50     xoffset=0     yoffset=0     xadvance=16     page=0  chnl=15
+char id=46   x=399    y=1      width=16     height=50     xoffset=0     yoffset=0     xadvance=16     page=0  chnl=15
+char id=88   x=417    y=1      width=40     height=50     xoffset=0     yoffset=0     xadvance=40     page=0  chnl=15

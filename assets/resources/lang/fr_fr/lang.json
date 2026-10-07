@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "Mahjong Gagner 4"
+    },
+    "GAME": {
+        "payline_fg": "Collectez 3 symboles pour entrer dans le jeu gratuit.",
+        "payline_wd": "Remplace tous les symboles sauf FREE GAME",
+        "fg_tran_word_1": "Pendant les parties gratuites, le multiplicateur commence à",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "COMMENCER",
+        "fg_tran_word_4": "Chaque gain double le multiplicateur !",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

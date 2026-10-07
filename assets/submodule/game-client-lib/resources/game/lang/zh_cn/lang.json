@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "玩家线路异常，请重新尝试",
+        "sys_net_error2": "玩家线路异常，请返回大厅重新进入游戏",
+        "sys_net_disconnect": "玩家网路不稳定，已从游戏断开",
+        "sys_disconnected": "已从游戏断开",
+        "sys_net_retry1": "重新连线中 .  ",
+        "sys_net_retry2": "重新连线中 .. ",
+        "sys_net_retry3": "重新连线中 ..."
+    },
+    "GAME": {
+        "own_player": "玩家(你)",
+        "other_player": "其他玩家%{0}",
+        "sysm_refresh": "刷新",
+        "sysm_another_login": "您已从其他地方重复登入",
+        "sysm_inquiry_fail": "查询失败",
+        "sysm_login_nyet": "您尚未登入",
+        "sysm_verify_fail": "验证失败",
+        "sysm_trail_fail": "试玩模式暂不提供注单查询",
+        "sysm_if_bal": "余额不足，请充值后继续游戏",
+        "sysm_if_bal_bet_bonus": "馀额不足，请充值后再领取红包",
+        "sysm_error_unknown": "未知错误",
+        "sysm_transfer_not_finish": "其他游戏尚未结算，请稍后再试",
+        "login_error": "登入异常",
+        "login_unknow_error": "无法与服务器建立连线",
+        "server_not_run": "服务器启动中...",
+        "token_auth_error": "访问令牌已失效",
+        "download_error": "下载错误",
+        "sysm_wallet_not_found": "运营商伺服器异常",
+        "game_member_is_in_debt": "等待上回游戏结算中",
+        "game_member_is_in_debt2": "等待上回游戏结算中，等待时间%{0}秒",
+        "sysm_ingame_yet": "您已在游戏桌内",
+        "sysm_ingame_nyet": "您未进入游戏桌",
+        "sysm_bet_fail_exceed": "下注失败，超出限额",
+        "sysm_wait_bet": "非下注时间请稍等",
+        "sysm_game_kick_idle": "闲置过久，已从游戏断开连线，请重新进入游戏",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "活动说明页面逾时，请稍后再试。",
+        "sysm_bet_limit_exceeded": "已超出运营商设置投注限额"
+    }
+}

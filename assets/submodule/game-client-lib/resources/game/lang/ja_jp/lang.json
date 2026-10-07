@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "プレーヤーの接続がタイムアウトしました。もう一度お試しください",
+        "sys_net_error2": "プレイヤーの接続が異常です。ロビーに戻ってもう一度お試しください。",
+        "sys_net_disconnect": "プレーヤーのネットワークが不安定で、切断されています",
+        "sys_disconnected": "切断されました",
+        "sys_net_retry1": "再接続しています .",
+        "sys_net_retry2": "再接続しています ..",
+        "sys_net_retry3": "再接続しています ..."
+    },
+    "GAME": {
+        "own_player": "プレイヤー(あなた)",
+        "other_player": "他のプレイヤー%{0}",
+        "sysm_refresh": "リフレッシュ",
+        "sysm_another_login": "他のデバイスでログインしました",
+        "sysm_inquiry_fail": "照会に失敗しました",
+        "sysm_login_nyet": "ログインしていません",
+        "sysm_verify_fail": "検証失敗",
+        "sysm_trail_fail": "デモではレコードを照会できません",
+        "sysm_if_bal": "残高が不足しています。チャージしてください",
+        "sysm_if_bal_bet_bonus": "残高が不十分です。報酬を受け取るには補充してください",
+        "sysm_error_unknown": "未知のエラー",
+        "sysm_transfer_not_finish": "別のゲームで解決を待っています。\n後で試してください",
+        "login_error": "ログインエラー",
+        "login_unknow_error": "サーバーに接続されていません",
+        "server_not_run": "サーバーが起動しています...",
+        "token_auth_error": "無効なトークン",
+        "download_error": "ダウンロードエラー",
+        "sysm_wallet_not_found": "オペレーター サーバー エラー",
+        "game_member_is_in_debt": "前回のプレイ結果待ち",
+        "game_member_is_in_debt2": "前回のプレイ結果待ち。 %{0} 秒待機しています。",
+        "sysm_ingame_yet": "あなたはすでにテーブルにいます",
+        "sysm_ingame_nyet": "あなたはテーブルに入っていません",
+        "sysm_bet_fail_exceed": "ベットに失敗しました。もう一度お試しください",
+        "sysm_wait_bet": "ノンベット状態でお待ちください。",
+        "sysm_game_kick_idle": "放置時間が長すぎたため、ゲームから切断されました。ゲームに再入力してください。",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "イベントの説明ページがタイムアウトしました。しばらくしてからもう一度お試しください。",
+        "sysm_bet_limit_exceeded": "オペレーターが設定したベット上限を超えました"
+    }
+}

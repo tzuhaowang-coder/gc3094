@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "Mahjong Gana 4"
+    },
+    "GAME": {
+        "payline_fg": "Recoge 3 símbolos para ingresar al juego gratuito.",
+        "payline_wd": "Sustituye a todos los símbolos excepto FREE GAME",
+        "fg_tran_word_1": "Durante los Juegos Gratis, el multiplicador comienza en",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "COMENZAR",
+        "fg_tran_word_4": "¡Cada victoria duplica el multiplicador!",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

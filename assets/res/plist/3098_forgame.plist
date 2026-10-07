@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>static_bg.jpg</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{960,540}</string>
+                <key>spriteSourceSize</key>
+                <string>{960,540}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{960,540}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>3098_forgame.png</string>
+            <key>size</key>
+            <string>{962,542}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:66333f680f043e2133b756b3fd1caff7:4fa38cd54f9bed95defd9458bf058d1c:23ab73295c7b65e26ee12fef2e3b97a6$</string>
+            <key>img_md5sum</key>
+<string>7cfcf76a299a8a5bf0ccfeafec31c752</string>
+<key>textureFileName</key>
+            <string>3098_forgame.png</string>
+        </dict>
+    </dict>
+</plist>

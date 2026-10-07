@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "Mahjong Win 4"
+    },
+    "GAME": {
+        "payline_fg": "COLLECT 3 SYMBOLS TO ENTER THE FREE GAME.",
+        "payline_wd": "SUBSTITUTES FOR ALL SYMBOLS EXCEPT FREE GAME",
+        "fg_tran_word_1": "During Free Games, the multiplier starts at",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "START",
+        "fg_tran_word_4": "Every Win Doubles the Multiplier!",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

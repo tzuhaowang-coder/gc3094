@@ -1,0 +1,51 @@
+{
+  "__version__": "1.3.9",
+  "textureCompressConfig": {
+    "userPreset": {
+      "presetId1673837514148": {
+        "name": "presetId1673837514148",
+        "options": {
+          "miniGame": {},
+          "web": {
+            "webp": {
+              "quality": 50
+            },
+            "jpg": {
+              "quality": 99
+            }
+          },
+          "android": {},
+          "ios": {},
+          "pc": {}
+        }
+      },
+      "presetId1673837514147": {
+        "name": "presetId1673837514147",
+        "options": {
+          "miniGame": {},
+          "web": {
+            "png": {
+              "quality": 99
+            },
+            "webp": {
+              "quality": 50
+            }
+          },
+          "android": {},
+          "ios": {},
+          "pc": {}
+        }
+      }
+    },
+    "customConfigs": {}
+  },
+  "splash-setting": {
+    "totalTime": 500,
+    "background": {
+      "type": "default"
+    },
+    "logo": {
+      "type": "none"
+    }
+  }
+}

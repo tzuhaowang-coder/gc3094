@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "Le délai de connexion du joueur a expiré, veuillez réessayer",
+        "sys_net_error2": "La connexion du joueur est anormale, veuillez retourner dans le lobby et réessayer.",
+        "sys_net_disconnect": "Réseau du joueur instable, déconnecté",
+        "sys_disconnected": "DÉBRANCHÉ",
+        "sys_net_retry1": "RECONNEXION .",
+        "sys_net_retry2": "RECONNEXION ..",
+        "sys_net_retry3": "RECONNEXION ..."
+    },
+    "GAME": {
+        "own_player": "Joueur(VOUS)",
+        "other_player": "Autre joueur%{0}",
+        "sysm_refresh": "RAFRAÎCHIR",
+        "sysm_another_login": "Vous êtes connecté avec un autre appareil",
+        "sysm_inquiry_fail": "L'ENQUÊTE A ÉCHOUÉ",
+        "sysm_login_nyet": "VOUS N'ÊTES PAS CONNECTÉ",
+        "sysm_verify_fail": "ÉCHEC VÉRIFIÉ",
+        "sysm_trail_fail": "L'ENREGISTREMENT NE PEUT PAS ÊTRE ENQUÊTÉ DANS LA DÉMO",
+        "sysm_if_bal": "SOLDE INSUFFISANT, VEUILLEZ RECHARGER",
+        "sysm_if_bal_bet_bonus": "SOLDE INSUFFISANT, VEUILLEZ RECHARGER POUR RÉCLAMER VOTRE RÉCOMPENSE",
+        "sysm_error_unknown": "ERREUR INCONNUE",
+        "sysm_transfer_not_finish": "ATTENDÉ LE RÈGLEMENT DANS L'AUTRE JEU,\nVEUILLEZ ESSAYER PLUS TARD",
+        "login_error": "ERREUR D'IDENTIFICATION",
+        "login_unknow_error": "DÉCONNECTÉ AU SERVEUR",
+        "server_not_run": "LE SERVEUR DÉMARRE...",
+        "token_auth_error": "JETON INVALIDE",
+        "download_error": "ERREUR DE TÉLÉCHARGEMENT",
+        "sysm_wallet_not_found": "Erreur du serveur opérateur",
+        "game_member_is_in_debt": "En attente du résultat de la dernière lecture",
+        "game_member_is_in_debt2": "En attente du résultat de la dernière lecture. Attente de %{0} secondes.",
+        "sysm_ingame_yet": "Vous êtes déjà dans le tableau",
+        "sysm_ingame_nyet": "Vous n'êtes pas entré dans la table",
+        "sysm_bet_fail_exceed": "Le pari a échoué, veuillez réessayer",
+        "sysm_wait_bet": "État sans pari, veuillez patienter.",
+        "sysm_game_kick_idle": "Vous êtes resté trop longtemps inactif, déconnecté. Veuillez réintégrer le jeu.",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "La page de description de l'événement a expiré. Veuillez réessayer ultérieurement.",
+        "sysm_bet_limit_exceeded": "Limite de mise définie\npar l’opérateur\ndépassée"
+    }
+}

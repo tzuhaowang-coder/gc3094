@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "Koneksi pemain telah habis waktu, silakan coba lagi.",
+        "sys_net_error2": "Koneksi pemain tidak normal, silakan kembali ke lobi dan coba lagi.",
+        "sys_net_disconnect": "Jaringan pemain tidak stabil, koneksi terputus.",
+        "sys_disconnected": "Telah terputus dari game",
+        "sys_net_retry1": "Sedang koneksi ulang .  ",
+        "sys_net_retry2": "Sedang koneksi ulang .. ",
+        "sys_net_retry3": "Sedang koneksi ulang ..."
+    },
+    "GAME": {
+        "own_player": "Pemain (ANDA)",
+        "other_player": "Pemain lain%{0}",
+        "sysm_refresh": "Segarkan",
+        "sysm_another_login": "Anda telah login berulang kali dari tempat lain",
+        "sysm_inquiry_fail": "Pencarian gagal",
+        "sysm_login_nyet": "Anda belum login",
+        "sysm_verify_fail": "Verifikasi gagal",
+        "sysm_trail_fail": "Mode trial tidak menyediakan Bet Form untuk diperiksa",
+        "sysm_if_bal": "Saldo tidak cukup, silakan isi ulang dan lanjutkan game",
+        "sysm_if_bal_bet_bonus": "SALDO TIDAK CUKUP, SILAHKAN TOP UP UNTUK MENGKLAIM HADIAH ANDA",
+        "sysm_error_unknown": "Unknown Error",
+        "sysm_transfer_not_finish": "Game lain belum dihitung, silakan coba lagi nanti",
+        "login_error": "Login gagal",
+        "login_unknow_error": "Tidak dapat terhubung ke server",
+        "server_not_run": "Server sedang diaktifkan...",
+        "token_auth_error": "Token akses telah expired",
+        "download_error": "KESALAHAN UNDUHAN",
+        "sysm_wallet_not_found": "Kesalahan server operator",
+        "game_member_is_in_debt": "Menunggu hasil dari pertandingan terakhir",
+        "game_member_is_in_debt2": "Menunggu hasil dari pertandingan terakhir. Menunggu %{0} detik.",
+        "sysm_ingame_yet": "Anda sudah berada di meja permainan",
+        "sysm_ingame_nyet": "Anda belum memasuki meja permainan",
+        "sysm_bet_fail_exceed": "Gagal memasang taruhan, melampaui limit",
+        "sysm_wait_bet": "Bukan waktu bet, harap tunggu",
+        "sysm_game_kick_idle": "Terlalu lama idle, terputus dari game. Silakan masuk kembali ke dalam permainan.",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "Halaman deskripsi acara telah habis waktunya. Silakan coba lagi nanti.",
+        "sysm_bet_limit_exceeded": "Melebihi batas taruhan\nyang ditetapkan oleh\nOperator"
+    }
+}

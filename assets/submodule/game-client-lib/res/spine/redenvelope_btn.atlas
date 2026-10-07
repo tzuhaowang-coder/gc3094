@@ -1,0 +1,62 @@
+
+redenvelope_btn.png
+size: 956,436
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a/light_1
+  rotate: false
+  xy: 2, 2
+  size: 432, 432
+  orig: 432, 432
+  offset: 0, 0
+  index: -1
+a/light_2
+  rotate: true
+  xy: 436, 127
+  size: 307, 271
+  orig: 307, 271
+  offset: 0, 0
+  index: -1
+a/money
+  rotate: false
+  xy: 436, 6
+  size: 177, 119
+  orig: 177, 119
+  offset: 0, 0
+  index: -1
+a/number_circle
+  rotate: true
+  xy: 796, 34
+  size: 91, 90
+  orig: 91, 90
+  offset: 0, 0
+  index: -1
+a/redenvelope
+  rotate: true
+  xy: 709, 220
+  size: 214, 217
+  orig: 214, 217
+  offset: 0, 0
+  index: -1
+a/redenvelope_front
+  rotate: false
+  xy: 615, 22
+  size: 179, 103
+  orig: 179, 103
+  offset: 0, 0
+  index: -1
+a/shadow
+  rotate: false
+  xy: 709, 127
+  size: 191, 91
+  orig: 191, 91
+  offset: 0, 0
+  index: -1
+a/shining
+  rotate: false
+  xy: 902, 165
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1

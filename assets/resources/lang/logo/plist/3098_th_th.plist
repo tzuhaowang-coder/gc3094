@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>tx_logo.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{712,176}</string>
+                <key>spriteSourceSize</key>
+                <string>{712,176}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{712,176}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>3098_th_th.png</string>
+            <key>size</key>
+            <string>{714,178}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:a8e48c9d36da8795a2675649c373859e:4f3415935f26c3593d89ebdc76d69eda:d9ef48744010a8307f4f3f4d7c44d6ce$</string>
+            <key>img_md5sum</key>
+<string>435bf6cd2956eed37dd6e7c9e1beb04b</string>
+<key>textureFileName</key>
+            <string>3098_th_th.png</string>
+        </dict>
+    </dict>
+</plist>

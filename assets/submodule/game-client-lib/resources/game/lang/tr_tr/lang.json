@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "Oyuncunun bağlantı zaman aşımına uğradı, lütfen tekrar deneyin.",
+        "sys_net_error2": "Oyuncunun bağlantısında anormallik var, lütfen lobiye geri dönüp tekrar deneyin.",
+        "sys_net_disconnect": "Oyuncunun ağ bağlantısı不稳定, bağlantı kesildi.",
+        "sys_disconnected": "BAĞLANTI KESİLDİ",
+        "sys_net_retry1": "YENİDEN BAĞLANTI KURULDU.",
+        "sys_net_retry2": "YENİDEN BAĞLANIYORUZ...",
+        "sys_net_retry3": "YENİDEN BAĞLANIYORUZ..."
+    },
+    "GAME": {
+        "own_player": "Oyuncu (SEN)",
+        "other_player": "Diğer oyuncu%{0}",
+        "sysm_refresh": "YENİLE",
+        "sysm_another_login": "Başka bir cihazla giriş yaptınız.",
+        "sysm_inquiry_fail": "SORUŞTURMA BAŞARISIZ OLDU",
+        "sysm_login_nyet": "Giriş yapmadınız.",
+        "sysm_verify_fail": "DOĞRULAMA BAŞARISIZ",
+        "sysm_trail_fail": "DEMO SÜRÜMÜNDE KAYIT HAKKINDA BİLGİ ALINAMAZ",
+        "sysm_if_bal": "BAKİYE YETERSİZ, LÜTFEN YÜKLEYİN",
+        "sysm_if_bal_bet_bonus": "YETERLİ BAKİYE YOK, ÖDÜLÜNÜZÜ ALMAK İÇİN LÜTFEN BAKİYE YÜKLEYİN",
+        "sysm_error_unknown": "BİLİNMEYEN HATA",
+        "sysm_transfer_not_finish": "DİĞER OYUNDA HESAP VERME BEKLEDİM, LÜTFEN DAHA SONRA DENEYİN",
+        "login_error": "GİRİŞ HATASI",
+        "login_unknow_error": "SUNUCUYLA BAĞLANTI KESİLDİ",
+        "server_not_run": "SUNUCU BAŞLATILIYOR...",
+        "token_auth_error": "GEÇERSİZ BELİRTEÇ",
+        "download_error": "İNDİRME HATASI",
+        "sysm_wallet_not_found": "Operatör Sunucusu Hatası",
+        "game_member_is_in_debt": "Son maçın sonucunu bekliyoruz.",
+        "game_member_is_in_debt2": "Son hamlenin sonucunu bekliyorum. %{0} saniye bekleme süresi.",
+        "sysm_ingame_yet": "Zaten tabloda yer alıyorsunuz.",
+        "sysm_ingame_nyet": "Henüz tabloya giriş yapmadınız.",
+        "sysm_bet_fail_exceed": "Bahis başarısız oldu, lütfen tekrar deneyin.",
+        "sysm_wait_bet": "Bahis yapılmayan eyalet, lütfen bekleyin.",
+        "sysm_game_kick_idle": "Çok uzun süredir hareketsiz kaldınız, bağlantınız kesildi. Lütfen oyuna tekrar girin.",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "Etkinlik açıklama sayfası zaman aşımına uğradı. Lütfen daha sonra tekrar deneyin.",
+        "sysm_bet_limit_exceeded": "Operatör tarafından\nbelirlenen bahis\nlimiti aşıldı"
+    }
+}

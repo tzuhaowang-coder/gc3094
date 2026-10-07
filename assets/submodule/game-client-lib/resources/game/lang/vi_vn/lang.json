@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "Kết nối của người chơi đã hết thời gian, vui lòng thử lại.",
+        "sys_net_error2": "Kết nối của người chơi không bình thường, vui lòng quay lại sảnh và thử lại.",
+        "sys_net_disconnect": "Mạng của người chơi không ổn định, đã bị ngắt kết nối.",
+        "sys_disconnected": "Bị ngắt kết nối",
+        "sys_net_retry1": "Kết nối lại .  ",
+        "sys_net_retry2": "Kết nối lại .. ",
+        "sys_net_retry3": "Kết nối lại ..."
+    },
+    "GAME": {
+        "own_player": "Người chơi(BẠN)",
+        "other_player": "Người chơi khác%{0}",
+        "sysm_refresh": "Làm tươi",
+        "sysm_another_login": "Bạn đã đăng nhập bằng thiết bị khác",
+        "sysm_inquiry_fail": "YÊU CẦU ĐÃ THẤT BẠI",
+        "sysm_login_nyet": "Bạn chưa đăng nhập",
+        "sysm_verify_fail": "Xác minh thất bại",
+        "sysm_trail_fail": "Chế độ dùng thử không cung cấp truy vấn đặt cược",
+        "sysm_if_bal": "Số dư không đủ, xin vui lòng nạp tiền",
+        "sysm_if_bal_bet_bonus": "KHÔNG ĐỦ SỐ DƯ, VUI LÒNG NẠP TIỀN ĐỂ NHẬN THƯỞNG",
+        "sysm_error_unknown": "Không thể kết nối với máy chủ",
+        "sysm_transfer_not_finish": "Các trò chơi khác chưa được giải quyết, vui lòng thử lại sau",
+        "login_error": "Lỗi không xác định",
+        "login_unknow_error": "Không thể kết nối với máy chủ",
+        "server_not_run": "Máy chủ đang bắt đầu...",
+        "token_auth_error": "Mã thông báo truy cập đã hết hạn",
+        "download_error": "LỖI TẢI XUỐNG",
+        "sysm_wallet_not_found": "Lỗi máy chủ của nhà vận hành",
+        "game_member_is_in_debt": "Chờ đợi kết quả từ trò chơi trước",
+        "game_member_is_in_debt2": "Chờ đợi kết quả từ trò chơi trước. Đang đợi %{0} giây.",
+        "sysm_ingame_yet": "Bạn đã ở trong bàn rồi",
+        "sysm_ingame_nyet": "Bạn chưa đăng nhập vào bảng",
+        "sysm_bet_fail_exceed": "Đặt cược thất bại, vượt quá giới hạn",
+        "sysm_wait_bet": "Không đặt cược, vui lòng chờ.",
+        "sysm_game_kick_idle": "Bạn đã nhàn rỗi quá lâu, bị ngắt kết nối. Vui lòng vào lại trò chơi.",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "Trang mô tả sự kiện đã hết thời gian. Vui lòng thử lại sau.",
+        "sysm_bet_limit_exceeded": "Vượt quá giới hạn đặt\ncược do Nhà điều\nhành quy định"
+    }
+}

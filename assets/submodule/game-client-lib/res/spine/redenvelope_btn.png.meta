@@ -1,0 +1,76 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "2317e285-1fe7-43f2-b060-89eb42da9c0f",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "redenvelope_btn": {
+      "ver": "1.0.6",
+      "uuid": "cacd02f2-79b0-4763-ae8f-2b280a78b1ee",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2317e285-1fe7-43f2-b060-89eb42da9c0f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 952,
+      "height": 432,
+      "rawWidth": 956,
+      "rawHeight": 436,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    },
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "2317e285-1fe7-43f2-b060-89eb42da9c0f@6c48a",
+      "displayName": "redenvelope_btn",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "2317e285-1fe7-43f2-b060-89eb42da9c0f",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "wrapModeS": "clamp-to-edge",
+    "wrapModeT": "clamp-to-edge",
+    "minfilter": "linear",
+    "magfilter": "linear",
+    "mipfilter": "none",
+    "anisotropy": 0,
+    "hasAlpha": true,
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "2317e285-1fe7-43f2-b060-89eb42da9c0f@6c48a"
+  }
+}

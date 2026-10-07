@@ -1,0 +1,62 @@
+{
+  "package_version": 2,
+  "version": "0.2.2",
+  "name": "cocos-reference-finder",
+  "title": "Reference Finder",
+  "description": "Find static references to an asset inside Cocos Creator 3.8 Scene and Prefab files, including Node hierarchy, component, and property. Results are printed to the Cocos Console.",
+  "author": "Custom",
+  "editor": ">=3.8.0 <3.9.0",
+  "main": "./dist/main.js",
+  "panels": {
+    "default": {
+      "title": "Reference Finder",
+      "type": "dockable",
+      "main": "./dist/panel.js",
+      "icon": "./static/icon.svg",
+      "size": {
+        "width": 700,
+        "height": 600,
+        "min-width": 500,
+        "min-height": 350
+      }
+    }
+  },
+  "contributions": {
+    "assets": {
+      "menu": {
+        "methods": "./dist/assets-menu.js",
+        "assetMenu": "onAssetMenu"
+      }
+    },
+    "menu": [
+      {
+        "path": "Tools",
+        "label": "Reference Finder",
+        "message": "open-panel"
+      }
+    ],
+    "messages": {
+      "open-panel": {
+        "methods": [
+          "openPanel"
+        ]
+      },
+      "get-target": {
+        "methods": [
+          "getTarget"
+        ]
+      },
+      "set-target": {
+        "methods": [
+          "setTarget"
+        ]
+      },
+      "find-references": {
+        "methods": [
+          "findReferences"
+        ]
+      }
+    }
+  },
+  "scripts": {}
+}

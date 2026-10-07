@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "مہجونگ ون 4"
+    },
+    "GAME": {
+        "payline_fg": "COLLECT 3 SYMBOLS TO ENTER THE FREE GAME.",
+        "payline_wd": "SUBSTITUTES FOR ALL SYMBOLS EXCEPT FREE GAME",
+        "fg_tran_word_1": "مفت گیمز کے دوران، ضرب شروع ہوتا ہے۔",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "شروع کریں",
+        "fg_tran_word_4": "ہر جیت ضرب کو دوگنا کر دیتی ہے!",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

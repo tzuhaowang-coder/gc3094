@@ -1,0 +1,76 @@
+{
+  "name": "gc3098",
+  "server": "",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "debug": false,
+  "md5Cache": true,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "overwriteProjectSettings": {
+    "includeModules": {
+      "gfx-webgl2": "on",
+      "physics": "inherit-project-setting",
+      "physics-2d": "inherit-project-setting"
+    },
+    "macroConfig": {
+      "cleanupImageCache": "inherit-project-setting"
+    }
+  },
+  "nativeCodeBundleMode": "both",
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_all_json",
+  "useSplashScreen": false,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "7734967c-fe12-4102-ab45-4d230177f2a9",
+  "outputName": "web-mobile",
+  "taskName": "web-mobile",
+  "scenes": [
+    {
+      "url": "db://assets/scene/GameLobby.scene",
+      "uuid": "ab8560c0-2d76-4b7e-bc3c-7fc981659ffb"
+    },
+    {
+      "url": "db://assets/submodule/game-client-lib/scene/Loader.scene",
+      "uuid": "7734967c-fe12-4102-ab45-4d230177f2a9"
+    }
+  ],
+  "wasmCompressionMode": false,
+  "packages": {
+    "adsense-h5g-plugin": {
+      "enableAdsense": false,
+      "enableTestAd": false,
+      "__version__": "1.0.1",
+      "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+      "AFPHostDomain": "douyougame.com",
+      "otherAFPHostPropertyCode": "",
+      "otherAFPDomain": ""
+    },
+    "web-mobile": {
+      "orientation": "auto",
+      "embedWebDebugger": false,
+      "__version__": "1.0.1",
+      "useWebGPU": false
+    },
+    "cocos-service": {
+      "configID": "f34969",
+      "services": []
+    }
+  },
+  "__version__": "1.3.8",
+  "logDest": "project://temp/builder/log/web-mobile11-20-2024 09-22.log",
+  "md5CacheOptions": {
+    "excludes": [],
+    "includes": [],
+    "replaceOnly": [],
+    "handleTemplateMd5Link": true
+  }
+}

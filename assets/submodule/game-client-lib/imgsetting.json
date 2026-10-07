@@ -1,0 +1,86 @@
+{
+  "28dcd76d-0241-40cd-b079-3f016e648129": {
+    "name": "res/plist/refresh.png",
+    "uuid": "28dcd76d-0241-40cd-b079-3f016e648129",
+    "premultiplyAlpha": false,
+    "usewebp": true,
+    "lossless": false,
+    "quality": 50,
+    "compresspng": true,
+    "qualityHD": 90,
+    "usewebpHD": true,
+    "losslessHD": false
+  },
+  "ee76ea09-902a-4e76-94b3-52aa0372d608": {
+    "name": "res/plist/infopage_btn.png",
+    "uuid": "ee76ea09-902a-4e76-94b3-52aa0372d608",
+    "premultiplyAlpha": false,
+    "usewebp": true,
+    "lossless": false,
+    "quality": 50,
+    "compresspng": true,
+    "qualityHD": 90,
+    "usewebpHD": true,
+    "losslessHD": false
+  },
+  "d448d9ab-9236-4baa-98ef-6fb406505de8": {
+    "name": "res/plist/boost_effect_00.png",
+    "uuid": "d448d9ab-9236-4baa-98ef-6fb406505de8",
+    "premultiplyAlpha": false,
+    "usewebp": false,
+    "lossless": false,
+    "quality": 50,
+    "compresspng": true,
+    "qualityHD": 90,
+    "usewebpHD": false,
+    "losslessHD": false
+  },
+  "4634a85c-1166-4e33-8792-9b36bfd944d5": {
+    "name": "res/plist/loading.png",
+    "uuid": "4634a85c-1166-4e33-8792-9b36bfd944d5",
+    "premultiplyAlpha": false,
+    "usewebp": true,
+    "lossless": false,
+    "quality": 50,
+    "compresspng": true,
+    "qualityHD": 90,
+    "usewebpHD": true,
+    "losslessHD": false
+  },
+  "89ed5041-fb08-4a2a-975b-0c91b25b4ac3": {
+    "name": "res/plist/maskPoint.png",
+    "uuid": "89ed5041-fb08-4a2a-975b-0c91b25b4ac3",
+    "premultiplyAlpha": false,
+    "usewebp": true,
+    "lossless": false,
+    "quality": 50,
+    "compresspng": true,
+    "qualityHD": 90,
+    "usewebpHD": true,
+    "losslessHD": false
+  },
+  "2317e285-1fe7-43f2-b060-89eb42da9c0f": {
+    "name": "res/spine/redenvelope_btn.png",
+    "uuid": "2317e285-1fe7-43f2-b060-89eb42da9c0f",
+    "premultiplyAlpha": false,
+    "usewebp": true,
+    "lossless": false,
+    "quality": 50,
+    "compresspng": true,
+    "qualityHD": 90,
+    "usewebpHD": true,
+    "losslessHD": false
+  },
+  "02964d1c-5dc3-480c-bb4d-384eee80ddb3": {
+    "name": "res/spine/spine_turbo.png",
+    "uuid": "02964d1c-5dc3-480c-bb4d-384eee80ddb3",
+    "premultiplyAlpha": false,
+    "usewebp": true,
+    "lossless": false,
+    "quality": 50,
+    "compresspng": true,
+    "qualityHD": 90,
+    "usewebpHD": true,
+    "losslessHD": false
+  }
+}

@@ -1,0 +1,165 @@
+{
+"skeleton": { "hash": "TArt9TP9pRvkoAN636aCc9bVCwo", "spine": "3.8.99" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx_line_00", "parent": "root" }
+],
+"slots": [
+	{ "name": "fx_line_00", "bone": "fx_line_00" },
+	{ "name": "fx_line_01", "bone": "fx_line_00", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fx_line_00": {
+				"images/fx_line/fx_line_00": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_01": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_02": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_03": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_04": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_05": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_06": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_07": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_08": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_09": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_10": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_11": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_12": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_13": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_14": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_15": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_16": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_17": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_18": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_19": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_20": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_21": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_22": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_23": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_24": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_25": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_26": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_27": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_28": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_29": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_30": { "width": 294, "height": 186 }
+			},
+			"fx_line_01": {
+				"images/fx_line/fx_line_00": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_01": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_02": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_03": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_04": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_05": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_06": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_07": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_08": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_09": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_10": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_11": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_12": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_13": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_14": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_15": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_16": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_17": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_18": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_19": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_20": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_21": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_22": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_23": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_24": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_25": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_26": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_27": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_28": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_29": { "width": 294, "height": 186 },
+				"images/fx_line/fx_line_30": { "width": 294, "height": 186 }
+			}
+		}
+	}
+],
+"animations": {
+	"effect_line": {
+		"slots": {
+			"fx_line_00": {
+				"attachment": [
+					{ "name": "images/fx_line/fx_line_00" },
+					{ "time": 0.0333, "name": "images/fx_line/fx_line_01" },
+					{ "time": 0.0667, "name": "images/fx_line/fx_line_02" },
+					{ "time": 0.1, "name": "images/fx_line/fx_line_03" },
+					{ "time": 0.1333, "name": "images/fx_line/fx_line_04" },
+					{ "time": 0.1667, "name": "images/fx_line/fx_line_05" },
+					{ "time": 0.2, "name": "images/fx_line/fx_line_06" },
+					{ "time": 0.2333, "name": "images/fx_line/fx_line_07" },
+					{ "time": 0.2667, "name": "images/fx_line/fx_line_08" },
+					{ "time": 0.3, "name": "images/fx_line/fx_line_09" },
+					{ "time": 0.3333, "name": "images/fx_line/fx_line_10" },
+					{ "time": 0.3667, "name": "images/fx_line/fx_line_11" },
+					{ "time": 0.4, "name": "images/fx_line/fx_line_12" },
+					{ "time": 0.4333, "name": "images/fx_line/fx_line_13" },
+					{ "time": 0.4667, "name": "images/fx_line/fx_line_14" },
+					{ "time": 0.5, "name": "images/fx_line/fx_line_15" },
+					{ "time": 0.5333, "name": "images/fx_line/fx_line_16" },
+					{ "time": 0.5667, "name": "images/fx_line/fx_line_17" },
+					{ "time": 0.6, "name": "images/fx_line/fx_line_18" },
+					{ "time": 0.6333, "name": "images/fx_line/fx_line_19" },
+					{ "time": 0.6667, "name": "images/fx_line/fx_line_20" },
+					{ "time": 0.7, "name": "images/fx_line/fx_line_21" },
+					{ "time": 0.7333, "name": "images/fx_line/fx_line_22" },
+					{ "time": 0.7667, "name": "images/fx_line/fx_line_23" },
+					{ "time": 0.8, "name": "images/fx_line/fx_line_24" },
+					{ "time": 0.8333, "name": "images/fx_line/fx_line_25" },
+					{ "time": 0.8667, "name": "images/fx_line/fx_line_26" },
+					{ "time": 0.9, "name": "images/fx_line/fx_line_27" },
+					{ "time": 0.9333, "name": "images/fx_line/fx_line_28" },
+					{ "time": 0.9667, "name": "images/fx_line/fx_line_29" },
+					{ "time": 1, "name": "images/fx_line/fx_line_30" }
+				]
+			},
+			"fx_line_01": {
+				"color": [
+					{ "color": "ffffff38" }
+				],
+				"attachment": [
+					{ "name": "images/fx_line/fx_line_00" },
+					{ "time": 0.0333, "name": "images/fx_line/fx_line_01" },
+					{ "time": 0.0667, "name": "images/fx_line/fx_line_02" },
+					{ "time": 0.1, "name": "images/fx_line/fx_line_03" },
+					{ "time": 0.1333, "name": "images/fx_line/fx_line_04" },
+					{ "time": 0.1667, "name": "images/fx_line/fx_line_05" },
+					{ "time": 0.2, "name": "images/fx_line/fx_line_06" },
+					{ "time": 0.2333, "name": "images/fx_line/fx_line_07" },
+					{ "time": 0.2667, "name": "images/fx_line/fx_line_08" },
+					{ "time": 0.3, "name": "images/fx_line/fx_line_09" },
+					{ "time": 0.3333, "name": "images/fx_line/fx_line_10" },
+					{ "time": 0.3667, "name": "images/fx_line/fx_line_11" },
+					{ "time": 0.4, "name": "images/fx_line/fx_line_12" },
+					{ "time": 0.4333, "name": "images/fx_line/fx_line_13" },
+					{ "time": 0.4667, "name": "images/fx_line/fx_line_14" },
+					{ "time": 0.5, "name": "images/fx_line/fx_line_15" },
+					{ "time": 0.5333, "name": "images/fx_line/fx_line_16" },
+					{ "time": 0.5667, "name": "images/fx_line/fx_line_17" },
+					{ "time": 0.6, "name": "images/fx_line/fx_line_18" },
+					{ "time": 0.6333, "name": "images/fx_line/fx_line_19" },
+					{ "time": 0.6667, "name": "images/fx_line/fx_line_20" },
+					{ "time": 0.7, "name": "images/fx_line/fx_line_21" },
+					{ "time": 0.7333, "name": "images/fx_line/fx_line_22" },
+					{ "time": 0.7667, "name": "images/fx_line/fx_line_23" },
+					{ "time": 0.8, "name": "images/fx_line/fx_line_24" },
+					{ "time": 0.8333, "name": "images/fx_line/fx_line_25" },
+					{ "time": 0.8667, "name": "images/fx_line/fx_line_26" },
+					{ "time": 0.9, "name": "images/fx_line/fx_line_27" },
+					{ "time": 0.9333, "name": "images/fx_line/fx_line_28" },
+					{ "time": 0.9667, "name": "images/fx_line/fx_line_29" },
+					{ "time": 1, "name": "images/fx_line/fx_line_30" },
+					{ "time": 1.0333, "name": "images/fx_line/fx_line_30" }
+				]
+			}
+		}
+	},
+	"empty": {}
+}
+}

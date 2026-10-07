@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "Se agotó el tiempo de conexión del reproductor, inténtalo de nuevo",
+        "sys_net_error2": "La conexión del jugador es anormal, regresa al lobby e inténtalo nuevamente.",
+        "sys_net_disconnect": "La red del jugador es inestable, desconectada",
+        "sys_disconnected": "DESCONECTADO",
+        "sys_net_retry1": "RECONECTANDO .",
+        "sys_net_retry2": "RECONECTANDO ..",
+        "sys_net_retry3": "RECONECTANDO ..."
+    },
+    "GAME": {
+        "own_player": "Jugador (USTED)",
+        "other_player": "Otro jugador%{0}",
+        "sysm_refresh": "ACTUALIZAR",
+        "sysm_another_login": "Has iniciado sesión con otro dispositivo",
+        "sysm_inquiry_fail": "CONSULTA FALLIDA",
+        "sysm_login_nyet": "NO HAS INICIADO SESIÓN",
+        "sysm_verify_fail": "VERIFICADO FALLIDO",
+        "sysm_trail_fail": "NO SE PUEDE CONSULTAR REGISTRO EN DEMO",
+        "sysm_if_bal": "SALDO INSUFICIENTE, POR FAVOR RECARGAR",
+        "sysm_if_bal_bet_bonus": "SALDO INSUFICIENTE, POR FAVOR RECARGUE PARA RECLAMAR SU RECOMPENSA",
+        "sysm_error_unknown": "ERROR DESCONOCIDO",
+        "sysm_transfer_not_finish": "ESPERADO PARA EL ACUERDO EN EL OTRO JUEGO,\nPOR FAVOR INTÉNTELO MÁS TARDE",
+        "login_error": "ERROR DE INICIO DE SESIÓN",
+        "login_unknow_error": "DESCONECTADO AL SERVIDOR",
+        "server_not_run": "EL SERVIDOR ESTÁ ARRANCANDO...",
+        "token_auth_error": "SIMBOLO NO VALIDO",
+        "download_error": "ERROR DE DESCARGA",
+        "sysm_wallet_not_found": "Error del servidor del operador",
+        "game_member_is_in_debt": "Esperando el resultado de la última jugada",
+        "game_member_is_in_debt2": "Esperando el resultado de la última jugada. Esperando %{0} segundos.",
+        "sysm_ingame_yet": "Ya estas en la mesa",
+        "sysm_ingame_nyet": "No has entrado en la mesa.",
+        "sysm_bet_fail_exceed": "Apuesta fallida, inténtalo de nuevo",
+        "sysm_wait_bet": "Estado sin apuesta, por favor espere.",
+        "sysm_game_kick_idle": "Llevas demasiado tiempo inactivo, desconectado. Por favor vuelve a entrar al juego.",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "La página de descripción del evento ha expirado. Inténtalo de nuevo más tarde.",
+        "sysm_bet_limit_exceeded": "Se ha superado el límite\nde apuesta establecido\npor el Operador"
+    }
+}

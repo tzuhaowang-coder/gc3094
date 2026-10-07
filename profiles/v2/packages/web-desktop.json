@@ -1,0 +1,21 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "startScene": "7734967c-fe12-4102-ab45-4d230177f2a9",
+      "scenes": [
+        {
+          "url": "db://assets/scene/GameLobby.scene",
+          "uuid": "4787e31e-6321-438c-ab47-05f650270208"
+        },
+        {
+          "url": "db://assets/submodule/game-client-lib/scene/Loader.scene",
+          "uuid": "7734967c-fe12-4102-ab45-4d230177f2a9"
+        }
+      ]
+    }
+  }
+}

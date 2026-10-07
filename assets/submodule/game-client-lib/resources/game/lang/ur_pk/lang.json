@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "Player's connection time out, please try again",
+        "sys_net_error2": "Player's connection is abnormal, please return to the lobby and try again.",
+        "sys_net_disconnect": "Player's network unstable, disconnected",
+        "sys_disconnected": "DISCONNECTED",
+        "sys_net_retry1": "RECONNECTING .  ",
+        "sys_net_retry2": "RECONNECTING .. ",
+        "sys_net_retry3": "RECONNECTING ..."
+    },
+    "GAME": {
+        "own_player": "Player(YOU)",
+        "other_player": "Other player%{0}",
+        "sysm_refresh": "REFRESH",
+        "sysm_another_login": "You've logged in with other device",
+        "sysm_inquiry_fail": "INQUIRY FAILED",
+        "sysm_login_nyet": "YOU HAVEN'T LOGGED IN",
+        "sysm_verify_fail": "VERIFIED FAILED",
+        "sysm_trail_fail": "RECORD CANNOT BE INQUIRED IN DEMO",
+        "sysm_if_bal": "INSUFFICIENT BALANCE, PLEASE TOP UP",
+        "sysm_if_bal_bet_bonus": "INSUFFICIENT BALANCE, PLEASE TOP UP TO CLAIM YOUR REWARD",
+        "sysm_error_unknown": "UNKNOWN ERROR",
+        "sysm_transfer_not_finish": "WAITED FOR SETTLEMENT IN THE OTHER GAME,\nPLEASE TRY LATER",
+        "login_error": "LOGIN ERROR",
+        "login_unknow_error": "DISCONNECTED TO SERVER",
+        "server_not_run": "SERVER IS BOOTING UP...",
+        "token_auth_error": "INVALID TOKEN",
+        "download_error": "DOWNLOAD ERROR",
+        "sysm_wallet_not_found": "Operator Server Error",
+        "game_member_is_in_debt": "Waiting for the result from last play",
+        "game_member_is_in_debt2": "Waiting for the result from last play. Waiting %{0} seconds.",
+        "sysm_ingame_yet": "You are in the table already",
+        "sysm_ingame_nyet": "You haven't enter the table",
+        "sysm_bet_fail_exceed": "Bet failed, please try again",
+        "sysm_wait_bet": "Non-bet state, please wait.",
+        "sysm_game_kick_idle": "You have been idle for too long, disconnected. Please re-enter the game.",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "The event description page has timed out. Please try again later.",
+        "sysm_bet_limit_exceeded": "آپریٹر کی مقرر کردہ بیٹنگ حد\nسے تجاوز ہو گیا ہے"
+    }
+}

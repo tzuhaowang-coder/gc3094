@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "ما جونغ وين 4"
+    },
+    "GAME": {
+        "payline_fg": "COLLECT 3 SYMBOLS TO ENTER THE FREE GAME.",
+        "payline_wd": "SUBSTITUTES FOR ALL SYMBOLS EXCEPT FREE GAME",
+        "fg_tran_word_1": "خلال الألعاب المجانية، يبدأ المضاعف عند",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "يبدأ",
+        "fg_tran_word_4": "كل فوز يضاعف المضاعف!",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

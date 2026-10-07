@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "플레이어 연결 시간이 초과되었습니다. 다시 시도해 주세요.",
+        "sys_net_error2": "플레이어 연결이 비정상입니다. 로비로 돌아가서 다시 시도해 주세요.",
+        "sys_net_disconnect": "플레이어의 네트워크 불안정, 연결 끊김",
+        "sys_disconnected": "연결 끊김",
+        "sys_net_retry1": "재연결 중 .",
+        "sys_net_retry2": "재연결 중 ..",
+        "sys_net_retry3": "재연결 중 ..."
+    },
+    "GAME": {
+        "own_player": "플레이어(당신)",
+        "other_player": "다른 플레이어%{0}",
+        "sysm_refresh": "새로 고치다",
+        "sysm_another_login": "다른 기기로 로그인했습니다.",
+        "sysm_inquiry_fail": "문의 실패",
+        "sysm_login_nyet": "로그인하지 않았습니다.",
+        "sysm_verify_fail": "확인 실패",
+        "sysm_trail_fail": "데모에서 레코드를 조회할 수 없음",
+        "sysm_if_bal": "잔액이 부족합니다. 충전하세요.",
+        "sysm_if_bal_bet_bonus": "잔액이 부족합니다. 보상을 받으려면 충전하세요.",
+        "sysm_error_unknown": "알수없는 오류",
+        "sysm_transfer_not_finish": "다른 게임에서 해결을 기다렸습니다.\n나중에 시도하세요.",
+        "login_error": "로그인 오류",
+        "login_unknow_error": "서버에 연결 해제됨",
+        "server_not_run": "서버 부팅 중...",
+        "token_auth_error": "잘못된 토큰",
+        "download_error": "다운로드 오류",
+        "sysm_wallet_not_found": "운영자 서버 오류",
+        "game_member_is_in_debt": "마지막 플레이의 결과를 기다리는 중",
+        "game_member_is_in_debt2": "마지막 플레이의 결과를 기다리는 중. %{0}초를 기다리고 있습니다.",
+        "sysm_ingame_yet": "당신은 이미 테이블에 있습니다",
+        "sysm_ingame_nyet": "당신은 테이블을 입력하지 않았습니다",
+        "sysm_bet_fail_exceed": "베팅에 실패했습니다. 다시 시도해 주세요.",
+        "sysm_wait_bet": "베팅하지 않은 상태입니다. 잠시만 기다려 주십시오.",
+        "sysm_game_kick_idle": "너무 오랫동안 유휴 상태였으며 연결이 끊어졌습니다. 게임에 다시 접속해 주세요.",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "이벤트 설명 페이지가 시간 초과되었습니다. 나중에 다시 시도하세요.",
+        "sysm_bet_limit_exceeded": "운영자가 설정한 베팅 한도를 초과했습니다"
+    }
+}

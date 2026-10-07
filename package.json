@@ -1,0 +1,37 @@
+{
+  "name": "gc3098",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "copy:bundle:game": "mv -f assets/submodule/game-client-lib/resources/* assets/resources/bundle/",
+    "copy:bundle:slot": "mv -f assets/submodule/slot-client-lib/resources/* assets/resources/bundle/",
+    "copy:bundle:pre": "rm -rf assets/resources/bundle && mkdir -p assets/resources/bundle",
+    "copy:bundle": "npm run copy:bundle:pre && npm run copy:bundle:game && npm run copy:bundle:slot"
+  },
+  "dependencies": {
+    "@circusmonkey/utilities-protobuf": "git+ssh://git@git.circusmonkey.cc:utilities/protobuf.git#v3.1.3",
+    "@improbable-eng/grpc-web": "0.15.0",
+    "big": "npm:big.js@6.1.1",
+    "game-protobuf": "git+ssh://git@git.circusmonkey.cc:game/protobuf.git#v2.11.17",
+    "google-protobuf": "git+ssh://git@git.circusmonkey.cc:game/google-protobuf.git#v0.2.0",
+    "howler": "2.2.4",
+    "polyglot": "npm:polyglot.js@3.1.0",
+    "rxjs": "6.6.7",
+    "slot-protobuf": "git+ssh://git@git.circusmonkey.cc:slot/protobuf.git#v6.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.2",
+    "@types/big": "npm:@types/big.js@6.1.2",
+    "@types/google-protobuf": "3.7.2",
+    "@types/howler": "2.2.11",
+    "babelify": "10.0.0",
+    "plist": "3.1.0",
+    "tslint": "5.20.1",
+    "tslint-config-airbnb": "5.11.2",
+    "typescript": "3.9.10"
+  },
+  "creator": {
+    "version": "3.8.8"
+  },
+  "uuid": "ffcb99f4-1c46-4477-839c-6fced60db072"
+}

@@ -1,0 +1,19 @@
+{
+    "WEB": {
+        "title": "Vitória Mahjong 4"
+    },
+    "GAME": {
+        "payline_fg": "Colete 3 símbolos para entrar no jogo grátis.",
+        "payline_wd": "Substitui todos os símbolos, exceto FREE GAME",
+        "fg_tran_word_1": "Durante os Jogos Grátis, o multiplicador começa em",
+        "fg_tran_word_2": "X2",
+        "fg_tran_word_3": "COMEÇAR",
+        "fg_tran_word_4": "Cada vitória dobra o multiplicador!",
+        "mq_ng_0": "",
+        "mq_ng_1": "",
+        "mq_ng_2": "",
+        "mq_mi_0": "",
+        "mq_mi_1": "",
+        "mq_fg_0": ""
+    }
+}

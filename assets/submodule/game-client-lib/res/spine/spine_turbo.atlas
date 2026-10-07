@@ -1,0 +1,76 @@
+
+spine_turbo.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow_big
+  rotate: true
+  xy: 190, 372
+  size: 60, 88
+  orig: 60, 88
+  offset: 0, 0
+  index: -1
+arrow_s01
+  rotate: true
+  xy: 346, 386
+  size: 36, 52
+  orig: 36, 52
+  offset: 0, 0
+  index: -1
+arrow_s02
+  rotate: false
+  xy: 160, 400
+  size: 28, 40
+  orig: 28, 40
+  offset: 0, 0
+  index: -1
+black
+  rotate: false
+  xy: 2, 442
+  size: 188, 68
+  orig: 188, 68
+  offset: 0, 0
+  index: -1
+saber_00
+  rotate: false
+  xy: 280, 400
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 354, 424
+  size: 156, 44
+  orig: 156, 44
+  offset: 0, 0
+  index: -1
+turbo_btn_en_us
+  rotate: false
+  xy: 192, 434
+  size: 160, 36
+  orig: 160, 36
+  offset: 0, 0
+  index: -1
+turbo_btn_th_th
+  rotate: false
+  xy: 192, 472
+  size: 164, 38
+  orig: 164, 38
+  offset: 0, 0
+  index: -1
+turbo_btn_vi_vn
+  rotate: false
+  xy: 358, 470
+  size: 148, 40
+  orig: 148, 40
+  offset: 0, 0
+  index: -1
+turbo_btn_zh_cn
+  rotate: false
+  xy: 2, 397
+  size: 156, 43
+  orig: 156, 43
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "buildPath": "project://build",
+      "outputName": ".",
+      "mainBundleCompressionType": "merge_all_json",
+      "platform": "web-mobile",
+      "startScene": "7734967c-fe12-4102-ab45-4d230177f2a9",
+      "useSplashScreen": false,
+      "md5Cache": true,
+      "debug": true
+    },
+    "taskOptionsMap": {
+      "1732065743659": {
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1",
+        "useWebGPU": false
+      }
+    },
+    "__version__": "1.3.9"
+  }
+}

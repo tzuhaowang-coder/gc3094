@@ -1,0 +1,41 @@
+{
+    "NETWORK": {
+        "sys_net_error": "玩家線路異常，請重新嘗試",
+        "sys_net_error2": "玩家線路異常，請返回大廳重新進入遊戲",
+        "sys_net_disconnect": "玩家網路不穩定，已從遊戲斷開",
+        "sys_disconnected": "已從遊戲斷開",
+        "sys_net_retry1": "重新連線中 .  ",
+        "sys_net_retry2": "重新連線中 .. ",
+        "sys_net_retry3": "重新連線中 ..."
+    },
+    "GAME": {
+        "own_player": "玩家(你)",
+        "other_player": "其他玩家%{0}",
+        "sysm_refresh": "刷新",
+        "sysm_another_login": "您已從其他地方重複登入",
+        "sysm_inquiry_fail": "查詢失敗",
+        "sysm_login_nyet": "您尚未登入",
+        "sysm_verify_fail": "驗證失敗",
+        "sysm_trail_fail": "試玩模式暫不提供注單查詢",
+        "sysm_if_bal": "餘額不足，請儲值後繼續遊戲",
+        "sysm_if_bal_bet_bonus": "餘額不足，請充值後再領取紅包",
+        "sysm_error_unknown": "未知錯誤",
+        "sysm_transfer_not_finish": "其他遊戲尚未結算，請稍後再試",
+        "login_error": "登入異常",
+        "login_unknow_error": "無法與服務器建立連線",
+        "server_not_run": "服務器啟動中...",
+        "token_auth_error": "訪問令牌已失效",
+        "download_error": "下載錯誤",
+        "sysm_wallet_not_found": "運營商伺服器異常",
+        "game_member_is_in_debt": "等待上回遊戲結算中",
+        "game_member_is_in_debt2": "等待上回遊戲結算中，等待時間%{0}秒",
+        "sysm_ingame_yet": "您已在遊戲桌內",
+        "sysm_ingame_nyet": "您未進入遊戲桌",
+        "sysm_bet_fail_exceed": "下注失敗，超出限額",
+        "sysm_wait_bet": "非下注時間請稍等",
+        "sysm_game_kick_idle": "閒置過久，已從遊戲中斷開連線，請重新進入遊戲",
+        "sysm_demo": "DEMO ",
+        "bonus_info_timeout": "活動說明頁面逾時，請稍後再試。",
+        "sysm_bet_limit_exceeded": "已超出運營商設定投注限額"
+    }
+}

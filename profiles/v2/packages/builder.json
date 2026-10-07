@@ -1,0 +1,103 @@
+{
+  "__version__": "1.3.9",
+  "log": {
+    "level": 4
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1732065743659": {
+        "type": "build",
+        "id": "1732065743659",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2025-3-7 09:59:00 build success in 19 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterCompressSettings ----\r",
+        "options": {
+          "name": "gc3098",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": true,
+          "md5Cache": true,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "useSplashScreen": false,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "7734967c-fe12-4102-ab45-4d230177f2a9",
+          "outputName": ".",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scene/GameLobby.scene",
+              "uuid": "ab8560c0-2d76-4b7e-bc3c-7fc981659ffb"
+            },
+            {
+              "url": "db://assets/submodule/game-client-lib/scene/Loader.scene",
+              "uuid": "7734967c-fe12-4102-ab45-4d230177f2a9"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/web-mobile11-20-2024 09-22.log",
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "inlineEnum": true
+        },
+        "time": "3-7-2025 09:58:41",
+        "dirty": false
+      }
+    }
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "startScene": "7734967c-fe12-4102-ab45-4d230177f2a9",
+    "scenes": [
+      {
+        "url": "db://assets/scene/GameLobby.scene",
+        "uuid": "4787e31e-6321-438c-ab47-05f650270208"
+      },
+      {
+        "url": "db://assets/submodule/game-client-lib/scene/Loader.scene",
+        "uuid": "7734967c-fe12-4102-ab45-4d230177f2a9"
+      }
+    ],
+    "buildPath": "project://build",
+    "outputName": ".",
+    "mainBundleCompressionType": "merge_all_json",
+    "platform": "web-mobile",
+    "useSplashScreen": false,
+    "md5Cache": true,
+    "debug": true
+  }
+}
