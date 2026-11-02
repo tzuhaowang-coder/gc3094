@@ -2,14 +2,14 @@
   "ver": "1.0.8",
   "importer": "sprite-atlas",
   "imported": true,
-  "uuid": "003b2fc5-6602-4f2d-9003-f2ef7b9d7eec",
+  "uuid": "021225a6-7e8a-442c-8f6a-5515a9812dee",
   "files": [
     ".json"
   ],
   "subMetas": {
     "2bbc3": {
       "importer": "sprite-frame",
-      "uuid": "003b2fc5-6602-4f2d-9003-f2ef7b9d7eec@2bbc3",
+      "uuid": "021225a6-7e8a-442c-8f6a-5515a9812dee@2bbc3",
       "displayName": "",
       "id": "2bbc3",
       "name": "pic_info_bg",
@@ -42,8 +42,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "d00a82bb-70d7-4483-be97-49e04bd43a2c@6c48a",
-        "atlasUuid": "003b2fc5-6602-4f2d-9003-f2ef7b9d7eec",
+        "imageUuidOrDatabaseUri": "beec6611-9fad-4b6b-892c-f72da32d06e5@6c48a",
+        "atlasUuid": "021225a6-7e8a-442c-8f6a-5515a9812dee",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -57,7 +57,7 @@
   "userData": {
     "atlasTextureName": "3094_incompressible1.png",
     "format": 3,
-    "uuid": "003b2fc5-6602-4f2d-9003-f2ef7b9d7eec",
-    "textureUuid": "d00a82bb-70d7-4483-be97-49e04bd43a2c@6c48a"
+    "uuid": "021225a6-7e8a-442c-8f6a-5515a9812dee",
+    "textureUuid": "beec6611-9fad-4b6b-892c-f72da32d06e5@6c48a"
   }
 }

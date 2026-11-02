@@ -2,7 +2,7 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "5ccdfdd4-c314-4a57-90ea-8eb1802c2252",
+  "uuid": "f71dc517-34bc-4013-91c2-263e03acd395",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "5ccdfdd4-c314-4a57-90ea-8eb1802c2252@6c48a",
+      "uuid": "f71dc517-34bc-4013-91c2-263e03acd395@6c48a",
       "displayName": "spine_bg17",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "5ccdfdd4-c314-4a57-90ea-8eb1802c2252",
+        "imageUuidOrDatabaseUri": "f71dc517-34bc-4013-91c2-263e03acd395",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
-    "redirect": "5ccdfdd4-c314-4a57-90ea-8eb1802c2252@6c48a"
+    "redirect": "f71dc517-34bc-4013-91c2-263e03acd395@6c48a"
   }
 }

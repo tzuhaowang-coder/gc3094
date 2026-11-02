@@ -2,14 +2,14 @@
   "ver": "1.0.8",
   "importer": "sprite-atlas",
   "imported": true,
-  "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+  "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
   "files": [
     ".json"
   ],
   "subMetas": {
     "26c6f": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@26c6f",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@26c6f",
       "displayName": "",
       "id": "26c6f",
       "name": "pic_start_btn",
@@ -42,8 +42,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -55,7 +55,7 @@
     },
     "66f8c": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@66f8c",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@66f8c",
       "displayName": "",
       "id": "66f8c",
       "name": "tx_bf",
@@ -88,8 +88,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -101,7 +101,7 @@
     },
     "934ca": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@934ca",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@934ca",
       "displayName": "",
       "id": "934ca",
       "name": "tx_bf_btn",
@@ -134,8 +134,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -147,7 +147,7 @@
     },
     "efb62": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@efb62",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@efb62",
       "displayName": "",
       "id": "efb62",
       "name": "tx_bf_buy",
@@ -180,8 +180,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -193,7 +193,7 @@
     },
     "e1177": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@e1177",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@e1177",
       "displayName": "",
       "id": "e1177",
       "name": "tx_bf_cancel",
@@ -226,8 +226,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -239,7 +239,7 @@
     },
     "e68c4": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@e68c4",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@e68c4",
       "displayName": "",
       "id": "e68c4",
       "name": "tx_bf_fg",
@@ -272,8 +272,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -285,7 +285,7 @@
     },
     "b1731": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@b1731",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@b1731",
       "displayName": "",
       "id": "b1731",
       "name": "tx_mar_total_win",
@@ -318,8 +318,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -331,7 +331,7 @@
     },
     "1b8ce": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@1b8ce",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@1b8ce",
       "displayName": "",
       "id": "1b8ce",
       "name": "tx_mar_win",
@@ -364,8 +364,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -377,7 +377,7 @@
     },
     "476fb": {
       "importer": "sprite-frame",
-      "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117@476fb",
+      "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3@476fb",
       "displayName": "",
       "id": "476fb",
       "name": "tx_win_fg",
@@ -410,8 +410,8 @@
           "maxPos": []
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a",
-        "atlasUuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
+        "imageUuidOrDatabaseUri": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a",
+        "atlasUuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
         "trimType": "auto"
       },
       "ver": "1.0.12",
@@ -425,7 +425,7 @@
   "userData": {
     "atlasTextureName": "3094_text.png",
     "format": 3,
-    "uuid": "c7eff0b5-2904-49d9-b247-1dd4fc39b117",
-    "textureUuid": "061a74b3-053b-4ffb-b643-0860d80cd788@6c48a"
+    "uuid": "0c89fd7c-702b-4f5f-a49f-7974f739b7d3",
+    "textureUuid": "a6d7f280-29e0-4997-a83c-8f51cbfaabc4@6c48a"
   }
 }

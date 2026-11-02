@@ -1,0 +1,14 @@
+
+[submodule "preview-template"]
+	path = preview-template
+	url = git@git.circusmonkey.cc:tools/preview-template.git
+	branch = release-3.0
+[submodule "assets/submodule/game-client-lib"]
+	path = assets/submodule/game-client-lib
+	url = git@git.circusmonkey.cc:game/client-lib-cocos3.git
+	branch = develop
+[submodule "assets/submodule/slot-client-lib"]
+	path = assets/submodule/slot-client-lib
+	url = git@git.circusmonkey.cc:slot/client-lib-cocos3.git
+	branch = develop
+		

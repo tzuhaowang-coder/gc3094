@@ -346,11 +346,12 @@ export default class Lobby extends SlotLobbyBase {
         setNodeOpacity(this.slot.node, 255);
         setNodeOpacity(this.puzzle.node, 255);
         this.slot.setCacheSymbol([
-            ['' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.SF, '' + SymbolType.SF, '' + SymbolType.S1],
-            ['' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.SE, '' + SymbolType.SB, '' + SymbolType.FG, '' + SymbolType.WD, '' + SymbolType.S4, '' + SymbolType.S1],
+            ['' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.SF, ''],
+            ['' + SymbolType.S1, '' + SymbolType.SE, '' + SymbolType.SB, '' + SymbolType.FG, '' + SymbolType.WD, '' + SymbolType.S4, '' + SymbolType.S1],
             ['' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S2, '' + SymbolType.WD, '' + SymbolType.SA, '' + SymbolType.SD, '' + SymbolType.S3, '' + SymbolType.S1],
             ['' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.SE, '' + SymbolType.SB, '' + SymbolType.FG, '' + SymbolType.WD, '' + SymbolType.S4, '' + SymbolType.S1],
-            ['' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.SF, '' + SymbolType.SF, '' + SymbolType.S1],
+            ['' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.SF, '' + SymbolType.S1],
+            ['' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.S1, '' + SymbolType.SF, ''],
         ]);
         this.attachSlotToPuzzle();
         this.switchDisplayToPuzzle();

@@ -2,7 +2,7 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "5922ef69-0cf3-4e2c-a491-65ceff2ee656",
+  "uuid": "e2259dc1-79c5-49a3-89cf-c61c780f403e",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "5922ef69-0cf3-4e2c-a491-65ceff2ee656@6c48a",
+      "uuid": "e2259dc1-79c5-49a3-89cf-c61c780f403e@6c48a",
       "displayName": "spine_bg9",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "5922ef69-0cf3-4e2c-a491-65ceff2ee656",
+        "imageUuidOrDatabaseUri": "e2259dc1-79c5-49a3-89cf-c61c780f403e",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
-    "redirect": "5922ef69-0cf3-4e2c-a491-65ceff2ee656@6c48a"
+    "redirect": "e2259dc1-79c5-49a3-89cf-c61c780f403e@6c48a"
   }
 }

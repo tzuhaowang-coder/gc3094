@@ -30,7 +30,7 @@ export function setLines(ls: number[][]) {
 
 export const FG_COUNT = 3;
 /** 每一輪可見的圖標顆數 */
-export const REEL_LIMIT = [6, 6, 6, 6, 6];
+export const REEL_LIMIT = [5, 6, 7, 7, 6, 5];
 
 /**
  * 金框固定位置（5 欄 x 6 排；x=欄 0~4 左到右，y=列 0~5 上到下），共 3 格。
@@ -38,9 +38,9 @@ export const REEL_LIMIT = [6, 6, 6, 6, 6];
  * 用來當 explode 轉 WILD 的閘門，避免把「從上方掉落的 WILD」誤判成原地黏著。
  */
 export const GOLD_FRAME_POSITIONS: ReadonlyArray<{ x: number, y: number }> = [
-    { x: 2, y: 2 }, // 中欄偏上
-    { x: 1, y: 4 }, // 左欄中間（紅「中」）
-    { x: 3, y: 4 }, // 右欄中間（藍框）
+    // { x: 2, y: 2 }, // 中欄偏上
+    // { x: 1, y: 4 }, // 左欄中間（紅「中」）
+    // { x: 3, y: 4 }, // 右欄中間（藍框）
 ];
 
 export function isGoldFramePos(x: number, y: number): boolean {
@@ -71,6 +71,17 @@ export let SLOT_SYMBOL_MAP = {
     [SymbolType.S3]: 's3',
     [SymbolType.S4]: 's4',
 
+    [SymbolType.MS1]: 's1_g',
+    [SymbolType.MS2]: 's2_g',
+    [SymbolType.MS3]: 's3_g',
+    [SymbolType.MS4]: 's4_g',
+
+    [SymbolType.MSA]: 'sa_g',
+    [SymbolType.MSB]: 'sb_g',
+    [SymbolType.MSD]: 'sd_g',
+    [SymbolType.MSE]: 'se_g',
+    [SymbolType.MSF]: 'sf_g',
+
     [SymbolType.WD]: 'wild',
     [SymbolType.FG]: 'fg',
 };
@@ -91,8 +102,15 @@ export function symbolAnimName(type: SymbolType, status: SLOT_SYMBOL_STATUS_3098
                 return `ani_${name}_stay`;
             }
             return `ani_${name}`;
+
         case SLOT_SYMBOL_STATUS_3098.BLUR:
-            return `ani_${name}${dashBlu}${getSymbolLang(type)}`;
+            if (name) {
+                if (name.endsWith('_g')) {
+                    return `ani_${name.slice(0, -2)}_blu_g`;
+                }
+                return `ani_${name}${dashBlu}`;
+            }
+
         case SLOT_SYMBOL_STATUS_3098.WIN:
             return `ani_${name}_win`;
         case SLOT_SYMBOL_STATUS_3098.EXPECTATION:
@@ -106,7 +124,11 @@ export function symbolAnimName(type: SymbolType, status: SLOT_SYMBOL_STATUS_3098
 }
 
 export function getSkeletonDataName(symbolType: SymbolType) {
-    return 'spine_symbol_' + SLOT_SYMBOL_MAP[symbolType];
+    const name = SLOT_SYMBOL_MAP[symbolType];
+    if (name.endsWith('_g')) {
+        return 'spine_symbol_' + name.slice(0, -2);
+    }
+    return 'spine_symbol_' + name;
 }
 
 /** 數值反查 SymbolType 的名稱，查不到就標記 UNKNOWN */

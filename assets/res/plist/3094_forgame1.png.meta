@@ -2,7 +2,7 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "0649f3da-2d14-4fc4-8b5d-57c0e3d62ca6",
+  "uuid": "b609f855-d3cd-47df-b50e-653a0f16dbcb",
   "files": [
     ".json",
     ".png"
@@ -10,7 +10,7 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "0649f3da-2d14-4fc4-8b5d-57c0e3d62ca6@6c48a",
+      "uuid": "b609f855-d3cd-47df-b50e-653a0f16dbcb@6c48a",
       "displayName": "3094_forgame1",
       "id": "6c48a",
       "name": "texture",
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "0649f3da-2d14-4fc4-8b5d-57c0e3d62ca6",
+        "imageUuidOrDatabaseUri": "b609f855-d3cd-47df-b50e-653a0f16dbcb",
         "visible": false
       },
       "ver": "1.0.22",
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
-    "redirect": "0649f3da-2d14-4fc4-8b5d-57c0e3d62ca6@6c48a"
+    "redirect": "b609f855-d3cd-47df-b50e-653a0f16dbcb@6c48a"
   }
 }

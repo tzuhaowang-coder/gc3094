@@ -62,11 +62,11 @@ export default abstract class PuzzleReelBase extends Component {
      * 可處理單個圖標放置別的節點，解決圖層問題
      * 別的節點Position要跟Reel的Position一樣
      */
-    public getParent(puzzleSymbol:PuzzleSymbolBase2): Node {
+    public getParent(puzzleSymbol: PuzzleSymbolBase2): Node {
         return this.doGetParent ? this.doGetParent(puzzleSymbol) : this.targetNode;
     }
 
-    doGetParent?(puzzleSymbol:PuzzleSymbolBase2): Node;
+    doGetParent?(puzzleSymbol: PuzzleSymbolBase2): Node;
 
     /**
      * 初始化盤面 or attachSlotToPuzzle

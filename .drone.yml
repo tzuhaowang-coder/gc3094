@@ -1,0 +1,302 @@
+kind: pipeline
+type: docker
+name: version-lint
+
+node:
+  linux: i7
+
+clone:
+  depth: 0
+
+steps:
+  - name: lint
+    image: asia-docker.pkg.dev/prod-game-226507/repo/check-client-versions:v0.1.1
+    when:
+      event:
+        - tag
+      ref:
+        include:
+          - refs/tags/v*.*.*
+    environment:
+      GITEA_KEY:
+        from_secret: gitea_key
+    commands:
+      - mkdir -p ~/.ssh
+      - echo "$GITEA_KEY" > ~/.ssh/id_rsa
+      - chmod 600 ~/.ssh/id_rsa
+      - ssh-keyscan -H git.circusmonkey.cc >> ~/.ssh/known_hosts
+      - git submodule update --init --recursive
+      - git submodule foreach --recursive 'git fetch --tags --prune origin'
+      - check-versions.js
+
+trigger:
+  ref:
+    - refs/tags/v*.*.*
+
+---
+kind: pipeline
+type: exec
+name: cocos-build
+
+depends_on:
+  - version-lint
+
+platform:
+  os: darwin
+
+steps:
+  - name: build-dev
+    when:
+      branch:
+        include:
+         - develop
+      event:
+        - push
+    environment:
+      GITEA_KEY:
+        from_secret: gitea_key
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+    commands:
+      - uname -n
+      - ./build.sh v4.6.7 3098 ${DRONE_COMMIT:0:8} true
+
+  - name: build-release
+    when:
+      event: 
+        - tag
+      ref:
+        - refs/tags/v*.*.*
+    environment:
+      GITEA_KEY:
+        from_secret: gitea_key
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+    commands:
+      - uname -n
+      - ./build.sh v4.6.7 3098 $DRONE_TAG false
+
+  - name: build-d_xxxx
+    when:
+      branch:
+        include:
+          - d_????
+      event:
+        - push
+    environment:
+      GITEA_KEY:
+        from_secret: gitea_key
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+    commands:
+      - uname -n
+      - ./build.sh v4.6.7 3098 ${DRONE_COMMIT:0:8} true
+
+trigger:
+  ref:
+    - refs/tags/v*.*.*
+    - refs/heads/develop
+    - refs/heads/d_????
+
+---
+kind: pipeline
+type: docker
+name: cocos-push
+
+node:
+  linux: i7
+
+workspace:
+  base: /tmp
+  path: build
+
+clone:
+  disable: true
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+  - name: build-dev
+    image: gcr.io/ace-rd/cocos-creator-native:v4.6.7
+    when:
+      branch:
+        include:
+          - develop
+      event:
+        - push
+    environment:
+      GITEA_KEY:
+        from_secret: gitea_key
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+      WEBHOOK:
+        from_secret: webhook
+    commands:
+      - /root/fetch.sh ${DRONE_COMMIT:0:8} 3098
+      - cd ${DRONE_COMMIT:0:8}
+      - /root/v3/postbuild.sh develop 3098
+  - name: build-release
+    image: gcr.io/ace-rd/cocos-creator-native:v4.6.7
+    when:
+      event:
+        - tag
+      ref:
+        include:
+          - refs/tags/v*.*.*
+    environment:
+      GITEA_KEY:
+        from_secret: gitea_key
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+      GA_ID:
+        from_secret: ga_id
+      WEBHOOK:
+        from_secret: webhook
+    commands:
+      - /root/fetch.sh $DRONE_TAG 3098
+      - cd $DRONE_TAG
+      - /root/v3/postbuild.sh $DRONE_TAG 3098
+  - name: build-d_xxxx
+    image: gcr.io/ace-rd/cocos-creator-native:v4.6.7
+    when:
+      branch:
+        include:
+          - d_????
+      event:
+        - push
+    environment:
+      GITEA_KEY:
+        from_secret: gitea_key
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+    commands:
+      - /root/fetch.sh ${DRONE_COMMIT:0:8} 3098
+      - cd ${DRONE_COMMIT:0:8}
+      - /root/v3/postbuild.sh $DRONE_BRANCH 3098
+  - name: gcs-dev
+    image: gcr.io/ace-rd/drone-gcs:v1.0.3
+    when:
+      branch:
+        include:
+          - develop
+      event:
+        - push
+    settings:
+      source: ${DRONE_COMMIT:0:8}/build
+      target: static-games/3098/develop
+      acl: allUsers:READER
+      cache_control: public,max-age=3600
+      token:
+        from_secret: gcr_key
+  - name: gcs-release
+    image: gcr.io/ace-rd/drone-gcs:v1.0.3
+    when:
+      event:
+        - tag
+      ref:
+        include:
+          - refs/tags/v*.*.*
+    settings:
+      source: ${DRONE_TAG}/build
+      target: static-games/3098/${DRONE_TAG}
+      acl: allUsers:READER
+      cache_control: public,max-age=3600
+      token:
+        from_secret: gcr_key
+  - name: gcs-d_xxxx
+    image: gcr.io/ace-rd/drone-gcs:v1.0.3
+    when:
+      branch:
+        include:
+          - d_????
+      event:
+        - push
+    settings:
+      source: ${DRONE_COMMIT:0:8}/build
+      target: static-games/3098/${DRONE_BRANCH}
+      acl: allUsers:READER
+      cache_control: public,max-age=3600
+      token:
+        from_secret: gcr_key
+  - name: clean-dev
+    image: gcr.io/ace-rd/cocos-creator-native:v4.6.7
+    when:
+      branch:
+        include:
+          - develop
+      event:
+        - push
+      status: [success, failure]
+    environment:
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+    commands:
+      - /root/clean.sh ${DRONE_COMMIT:0:8} 3098
+  - name: clean-release
+    image: gcr.io/ace-rd/cocos-creator-native:v4.6.7
+    when:
+      event:
+        - tag
+      ref:
+        include:
+          - refs/tags/v*.*.*
+      status: [success, failure]
+    environment:
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+    commands:
+      - /root/clean.sh $DRONE_TAG 3098
+  - name: clean-d_xxxx
+    image: gcr.io/ace-rd/cocos-creator-native:v4.6.7
+    when:
+      branch:
+        include:
+          - d_????
+      event:
+        - push
+      status: [success, failure]
+    environment:
+      MINIO_ACCESS_KEY:
+        from_secret: minio_access_key
+      MINIO_SECRET_KEY:
+        from_secret: minio_secret_key
+    commands:
+      - /root/clean.sh ${DRONE_COMMIT:0:8} 3098      
+  - name: notify
+    image: plugins/slack
+    environment:
+      DRONE_BUILD_LINK: https://${DRONE_SYSTEM_HOST}/${DRONE_REPO}/${DRONE_BUILD_NUMBER}
+    settings:
+      room: game
+      username: Drone CI
+      webhook:
+        from_secret: webhook
+    when:
+      status: [success, failure]
+
+depends_on:
+  - cocos-build
+
+trigger:
+  ref:
+    - refs/tags/v*.*.*
+    - refs/heads/develop
+    - refs/heads/d_????
